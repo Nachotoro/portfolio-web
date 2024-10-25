@@ -1,0 +1,56 @@
+.webdeveloper {
+    height: 228px;
+    background-color: #DED7FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Asegura que todos los hijos tengan el mismo alto */
+}
+
+.margin-left {
+    width: 122px;
+    background-color: #DED7FD;
+    flex-shrink: 0; /* Evita que el margen izquierdo cambie de tamaño */
+}
+
+.line {
+    height: 100%; /* Asegura que ocupe todo el alto del contenedor */
+    width: 1px;
+    background-color: #2F2F2F;
+}
+
+.symbols {
+    width: 76px;
+    background-color: #DED7FD; /* Añadido para que se note */
+    flex-shrink: 0; /* Evita que se reduzca */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ux-ui {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Ocupa todo el espacio disponible */
+    color: #2F2F2F;
+    background-color: #DED7FD;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text-container{
+    gap: 12px;
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    flex: 1; /* Ocupa el mismo espacio que .ux-ui */
+    background-color: #E6F995;
+}
+
+.line-horizontal {
+    width: 100%; /* Toma todo el ancho del contenedor */
+    height: 1px;
+    background-color: black; /* Asegúrate de darle un color para que sea visible */
+}

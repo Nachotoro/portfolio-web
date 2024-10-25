@@ -1,0 +1,16 @@
+header {
+    height: 52px;           
+    width: 100vw;           /* Utiliza 100vw para asegurar que ocupe el ancho total de la ventana */
+    background-color: #E6F995;
+    display: flex;
+    left: 0;                 /* Posiciona el header desde la izquierda */
+    right: 0;                /* Asegúrate de que no se recorte */
+    margin: 0;              /* Elimina márgenes por defecto */
+    padding: 0;             /* Elimina padding por defecto */
+    color: #141414;
+}
+
+header ul{
+    list-style-type: none;
+}
+

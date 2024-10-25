@@ -1,7 +1,13 @@
+@font-face {
+  font-family: 'Neue-regrade';
+  src: url('src/assets/fonts/Neue Regrade Regular.otf') format('truetype');
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Neue-regrade, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  list-style-type: none;
 
   color-scheme: light dark;
 
@@ -12,8 +18,9 @@
 }
 
 body {
+  list-style-type: none;
+  width: 100%;
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
