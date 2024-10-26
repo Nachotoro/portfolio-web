@@ -1,5 +1,62 @@
-.gif{
-    height: 558px;
-    width: 100vw;
-    background-color: rgb(27, 27, 27);
+.gif {
+    position: relative; /* Permite superposicionar elementos dentro */
+    width: 100%; 
+    height: 558px; /* Altura fija del contenedor */
+    display: inline-block;
+    overflow: hidden; /* Evita que la imagen desborde */
 }
+  
+.gif img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: 100%; /* Asegura que también ocupe toda la altura */
+    object-fit: cover; /* Mantiene la proporción y rellena el espacio sin deformarse */
+}
+  
+.overlay-text {
+    position: absolute; /* Superpone el texto sobre la imagen */
+    top: 40%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%) rotate(-2deg);; /* Ajusta el texto al centro */
+    text-align: center; /* Centra el texto */
+}
+
+.overlay-text h2 {
+    position: relative; /* Necesario para usar ::before */
+    color: #141414; /* Color del texto */
+    font-size: 64px; /* Tamaño más proporcional */
+    font-family: 'Nothing You Could Do', sans-serif;
+    margin: 10px 0; /* Espacio entre líneas */
+    display: inline-block; /* Permite el uso de margenes */
+}
+
+.overlay-text h2::before {
+    content: ""; /* Crea un pseudo-elemento antes del texto */
+    position: absolute; /* Posiciona el fondo */
+    top: 0; /* Ajusta a la parte superior del texto */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta a la izquierda */
+    width: 110%; /* Un poco más ancho que el texto */
+    height: 100%; /* Ajusta a la altura del texto */
+    background-color: #DED7FD; /* Fondo con transparencia */
+    z-index: -1; /* Envía el fondo detrás del texto */
+}
+.projects-button {
+    position: absolute; /* Permite posicionar el botón sin afectar la rotación del texto */
+    top: calc(64% + 40px); /* Ajusta según el tamaño del texto y espacio necesario */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Asegura que el botón esté centrado */
+    margin-top: 20px; /* Espacio entre el texto y el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #E6F995; /* Fondo del botón */
+    box-shadow: 2px 6px 1px 0px rgba(20,20,20,0.9);
+    color: #2A272D; /* Color del texto del botón */
+    border: 1px; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 18px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave al cambiar color */
+}
+
+
+  
+  

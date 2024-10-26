@@ -4,6 +4,8 @@ import Gif from './components/Gif';
 import './styles/gif.css';
 import Webdeveloper from './sections/Webdeveloper';
 import Marquee from './components/Marquee'; // Asegúrate de importar Marquee
+import TitleProjects from './sections/TitleProjetcs';
+import './styles/projects.css';
 
 function App() {
   const skills = [
@@ -16,6 +18,7 @@ function App() {
       <Gif />
       <Webdeveloper />
       <Marquee items={skills} speed={18} />
+      <TitleProjects></TitleProjects>
     </div>
   );
 }

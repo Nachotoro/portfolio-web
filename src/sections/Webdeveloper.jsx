@@ -24,7 +24,21 @@ function Webdeveloper(){
                 </div>
             </div>
             <div className='line'></div>
-            <div className='contact'></div>
+            <div className='contact'>
+                <div className='title-contact'>
+                    <img src='src/assets/icons/hand-icon.svg'></img>
+                    <h2>Contact</h2>
+                </div>
+                <div className='icons-contact'>
+                    <img src='src/assets/icons/github.svg'></img>
+                    <img src='src/assets/icons/behance.svg'></img>
+                    <img src='src/assets/icons/linkedin.svg'></img>
+                </div>
+                <div className='mail-contact'>
+                    <img src='src/assets/icons/mail.svg'></img>
+                    <h3>ignacio.thoro@gmail.com</h3>
+                </div>
+            </div>
 
         </div>
     )

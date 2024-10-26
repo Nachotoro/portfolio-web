@@ -45,8 +45,30 @@
 }
 
 .contact {
-    flex: 1; /* Ocupa el mismo espacio que .ux-ui */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 0.6; /* Ocupa el mismo espacio que .ux-ui */
     background-color: #E6F995;
+    color: #2F2F2F;
+}
+
+.title-contact{
+    gap: 8px;
+    font-size: large;
+    display: flex;
+}
+
+.icons-contact{
+    display: flex;
+    gap: 20px;
+}
+
+.mail-contact{
+    display: flex;
+    gap: 8px;
 }
 
 .line-horizontal {
