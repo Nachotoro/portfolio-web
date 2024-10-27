@@ -1,6 +1,14 @@
 @font-face {
   font-family: 'Neue-regrade';
   src: url('src/assets/fonts/Neue Regrade Regular.otf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue-regrade';
+  src: url('src/assets/fonts/Neue Regrade Bold.otf') format('truetype');
+  font-style: bold;
+
 }
 
 @font-face {
@@ -29,7 +37,5 @@ html, body {
   list-style-type: none;
   width: 100%;
   margin: 0;
-  place-items: center;
   min-width: 320px;
-  min-height: 100vh;
 }
