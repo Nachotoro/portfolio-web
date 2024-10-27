@@ -6,6 +6,7 @@ import Webdeveloper from './sections/Webdeveloper';
 import Marquee from './components/Marquee'; // Asegúrate de importar Marquee
 import TitleProjects from './sections/TitleProjetcs';
 import './styles/projects.css';
+import Footer from './sections/Footer';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
       <Webdeveloper />
       <Marquee items={skills} speed={24} />
       <TitleProjects></TitleProjects>
+
+      
+      <Footer></Footer>
     </div>
   );
 }
