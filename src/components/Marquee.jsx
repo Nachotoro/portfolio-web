@@ -15,6 +15,13 @@ const Marquee = ({ items, speed = 10 }) => {
             </li>
           ))}
         </ul>
+        <ul className="marquee-list">
+          {items.map((item, index) => (
+            <li key={index} className="marquee-item">
+              {item}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ function Webdeveloper(){
             <div className='contact'>
                 <div className='title-contact'>
                     <img src='src/assets/icons/hand-icon.svg'></img>
-                    <h2>Contact</h2>
+                    <h2>Contact me</h2>
                 </div>
                 <div className='icons-contact'>
                     <img src='src/assets/icons/github.svg'></img>

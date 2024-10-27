@@ -7,6 +7,7 @@ header {
     right: 0;                /* Asegúrate de que no se recorte */
     margin: 0;              /* Elimina márgenes por defecto */
     padding: 0;             /* Elimina padding por defecto */
+    box-shadow: inset 0px -4px 1px 0px rgba(20,20,20,0.9);
     color: #141414;
 }
 

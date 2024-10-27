@@ -1,9 +1,10 @@
 .webdeveloper {
-    height: 228px;
+    height: 200px;
     background-color: #DED7FD;
     display: flex;
     justify-content: space-between;
     align-items: stretch; /* Asegura que todos los hijos tengan el mismo alto */
+    box-shadow: 0px -8px 12px -8px rgba(20,20,20,1);
 }
 
 .margin-left {

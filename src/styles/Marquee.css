@@ -3,36 +3,35 @@
     white-space: nowrap; /* Impide saltos de línea */
     display: flex;
     align-items: center;
-    height: 52px;
+    height: 48px;
     width: 100%; /* Ancho completo del contenedor */
     background-color: #141414;
 }
 
 .marquee-content {
-    display: inline-block;
-
-    padding-left: 100%; /* Empieza el contenido fuera del contenedor */
-    animation: scroll linear infinite; /* Animación continua */
+    display: flex; /* Asegúrate de que el contenido sea un flex container */
+    animation: scroll 10s linear infinite; /* Cambia la duración según la longitud de tu contenido */
 }
 
 @keyframes scroll {
-    from {
+    0% {
         transform: translateX(0);
     }
-    to {
-        transform: translateX(-100%);
+    100% {
+        transform: translateX(-50%); /* Cambia esto a -50% para permitir la entrada del segundo conjunto */
     }
 }
 
 .marquee-list {
     display: flex; /* Los elementos se alinean en fila */
-    gap: 20px; /* Espacio entre los elementos */
+    gap: 12px; /* Espacio entre los elementos */
     padding: 0;
     margin: 0;
     list-style: none; /* Elimina los puntos de la lista */
 }
 
 .marquee-item {
-    font-size: 24px;
+    font-size: 20px;
+    font-style: normal;
     color: #ffffff;
 }

@@ -7,9 +7,10 @@ import Marquee from './components/Marquee'; // Asegúrate de importar Marquee
 import TitleProjects from './sections/TitleProjetcs';
 import './styles/projects.css';
 
+
 function App() {
   const skills = [
-    'HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'MongoDB', 'GraphQL',
+    'Design', '🌐', '3D artist', '🖌️', 'Branding', '📊', 'Javascript', '👨🏽‍💻', 'Figma', '☕', 'Node.js', '💻', 'Design', '🌐', '3D artist', '🖌️', 'Branding', '📊', 'Javascript', '👨🏽‍💻', 'Figma', '☕', 'Node.js', '💻'
   ];
 
   return (
@@ -17,7 +18,7 @@ function App() {
       <Navbar />
       <Gif />
       <Webdeveloper />
-      <Marquee items={skills} speed={18} />
+      <Marquee items={skills} speed={24} />
       <TitleProjects></TitleProjects>
     </div>
   );

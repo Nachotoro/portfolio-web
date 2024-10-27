@@ -36,10 +36,11 @@
     transform: translateX(-50%); /* Ajusta a la izquierda */
     width: 110%; /* Un poco más ancho que el texto */
     height: 100%; /* Ajusta a la altura del texto */
-    background-color: #DED7FD; /* Fondo con transparencia */
+    background-color: #ded7fdaa; /* Fondo con transparencia */
     z-index: -1; /* Envía el fondo detrás del texto */
 }
 .projects-button {
+    height: 60px;
     position: absolute; /* Permite posicionar el botón sin afectar la rotación del texto */
     top: calc(64% + 40px); /* Ajusta según el tamaño del texto y espacio necesario */
     left: 50%; /* Centra horizontalmente */
