@@ -7,6 +7,7 @@ import Marquee from './components/Marquee'; // Asegúrate de importar Marquee
 import TitleProjects from './sections/TitleProjetcs';
 import './styles/projects.css';
 import Footer from './sections/Footer';
+import AboutMe from './sections/AboutMe';
 
 
 function App() {
@@ -20,9 +21,11 @@ function App() {
       <Gif />
       <Webdeveloper />
       <Marquee items={skills} speed={24} />
-      <TitleProjects></TitleProjects>
+      <TitleProjects title={"About me"}></TitleProjects>
+      <AboutMe></AboutMe>
+      <TitleProjects title={"Projects"}></TitleProjects>
 
-      
+
       <Footer></Footer>
     </div>
   );

@@ -45,9 +45,9 @@ function Webdeveloper() {
           <h2>Contact me</h2>
         </div>
         <div className='icons-contact'>
-          <a href='https://github.com/Nachotoro'><img  src='src/assets/icons/github.svg' alt="github-icon" /></a>
-          <a href='https://www.behance.net/ignacioto'><img src='src/assets/icons/behance.svg' alt="behance-icon" /></a>
-          <a href='https://www.linkedin.com/in/ignacio-toro-l%C3%B3pez-a84649144/'><img src='src/assets/icons/linkedin.svg' alt="linkedin-icon" /></a>
+          <a href='https://github.com/Nachotoro' target="_blank"><img  src='src/assets/icons/github.svg' alt="github-icon" /></a>
+          <a href='https://www.behance.net/ignacioto' target="_blank"><img src='src/assets/icons/behance.svg' alt="behance-icon" /></a>
+          <a href='https://www.linkedin.com/in/ignacio-toro-l%C3%B3pez-a84649144/' target="_blank"><img src='src/assets/icons/linkedin.svg' alt="linkedin-icon" /></a>
         </div>
         <div className='mail-contact'>
           <img src='src/assets/icons/mail.svg' alt="mail-icon" />

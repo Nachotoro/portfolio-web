@@ -1,5 +1,11 @@
 @font-face {
   font-family: 'Neue-regrade';
+  src: url('src/assets/fonts/Neue Regrade Light.otf') format('truetype');
+  font-style: Light;
+}
+
+@font-face {
+  font-family: 'Neue-regrade';
   src: url('src/assets/fonts/Neue Regrade Regular.otf') format('truetype');
   font-style: normal;
 }

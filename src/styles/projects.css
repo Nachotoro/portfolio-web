@@ -11,7 +11,7 @@
     background-color: rgb(255, 255, 255);
     color: #2A272D;
     font-family: 'Nothing You Could Do';
-    font-size: 60px; /* Tamaño más proporcional */
+    font-size: 48px; /* Tamaño más proporcional */
     line-height: 1; /* Ajusta el espacio vertical */
     gap: 24px;
 }

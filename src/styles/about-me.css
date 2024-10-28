@@ -1,0 +1,13 @@
+.about-me{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    font-family: 'Neue-regrade';
+    
+    color: black;
+    width: 397px;
+    padding: 8px;
+}

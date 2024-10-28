@@ -1,8 +1,8 @@
 
-function TitleProjects (){
+function TitleProjects ({title}){
     return(
         <div className="title-projects">
-            <h2>About me</h2>
+            <h2>{title}</h2>
 
 
         </div>
