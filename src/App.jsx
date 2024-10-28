@@ -8,6 +8,7 @@ import TitleProjects from './sections/TitleProjetcs';
 import './styles/projects.css';
 import Footer from './sections/Footer';
 import AboutMe from './sections/AboutMe';
+import Projects from './sections/Projects';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <TitleProjects title={"About me"}></TitleProjects>
       <AboutMe></AboutMe>
       <TitleProjects title={"Projects"}></TitleProjects>
+      <Projects></Projects>
 
 
       <Footer></Footer>
