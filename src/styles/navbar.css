@@ -10,6 +10,8 @@ header {
     box-shadow: inset 0px -4px 1px 0px rgba(20,20,20,0.9);
     justify-content: center;
     color: #141414;
+    position: fixed;
+    z-index: 1;
 }
 
 header ul{

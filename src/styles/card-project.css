@@ -1,21 +1,49 @@
-.card-project{
-    background-color: orange;
-    height: auto;
-    width: auto;
-    color: black;
-}
-
-.img {
-    width: 300px;   /* Ancho que defines */
-    height: 200px;  /* Alto que defines */
-    overflow: hidden;  /* Oculta el exceso si la imagen es más grande */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card-project {
+    width: 300px; /* Ancho fijo de la tarjeta */
+    max-width: 100%; /* Para adaptarse en pantallas pequeñas */
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #000;;
+    border-radius: 12px; 
+    overflow: hidden; /* Evita que el contenido sobresalga */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animación suave en hover */
+    margin: 16px; /* Separación entre tarjetas */
   }
   
-  .img img {
-    width: 100%;  /* Ajusta al ancho del contenedor */
-    height: 100%; /* Ajusta al alto del contenedor */
-    object-fit: cover; /* Cubre todo el contenedor sin deformarse */
+  .card-project:hover {
+    transform: translateY(-8px); /* Efecto de levantar al pasar el mouse */
+    box-shadow: 2px 6px 1px 0px rgba(20,20,20,0.9);
+    }
+  
+  .card-project img {
+    width: 100%; /* Imagen a ancho completo */
+    height: 180px; /* Altura fija */
+    object-fit: cover; /* Ajusta la imagen sin distorsionar */
   }
+  
+  .card-project-content {
+    padding: 16px; /* Espaciado interno */
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espacio entre los elementos */
+  }
+  
+  .card-project-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .card-project-service {
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+  }
+  
+  .card-project-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-top: 8px;
+  }
+  

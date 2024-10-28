@@ -13,7 +13,7 @@
   
 .overlay-text {
     position: absolute; /* Superpone el texto sobre la imagen */
-    top: 40%; /* Centra verticalmente */
+    top: 44%; /* Centra verticalmente */
     left: 50%; /* Centra horizontalmente */
     transform: translate(-50%, -50%) rotate(-2deg);; /* Ajusta el texto al centro */
     text-align: center; /* Centra el texto */
@@ -42,7 +42,7 @@
 .projects-button {
     height: 60px;
     position: absolute; /* Permite posicionar el botón sin afectar la rotación del texto */
-    top: calc(64% + 40px); /* Ajusta según el tamaño del texto y espacio necesario */
+    top: calc(68% + 40px); /* Ajusta según el tamaño del texto y espacio necesario */
     left: 50%; /* Centra horizontalmente */
     transform: translateX(-50%); /* Asegura que el botón esté centrado */
     margin-top: 20px; /* Espacio entre el texto y el botón */

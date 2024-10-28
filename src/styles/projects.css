@@ -16,7 +16,45 @@
     gap: 24px;
 }
 
-.projects{
-    height: fit-content;
-}
+.projects {
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #fff;
+    display: flex; /* Usar flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias líneas */
+    justify-content: center; /* Espacio entre las tarjetas */
+    max-width: auto; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+  }
+  
+  .card-project {
+    width: 240px;
+    box-sizing: border-box; /* Asegura que el padding y el border no afecten el ancho total */
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px; /* Espacio entre filas de tarjetas */
+  }
+  
+  /* Asegúrate de que las imágenes se ajusten bien */
+  .card-project img {
+    width: 100%; /* Las imágenes ocuparán el ancho completo de la tarjeta */
+    height: auto; /* Mantiene la relación de aspecto */
+  }
+  
+  /* Mantener tres tarjetas por fila en pantallas más grandes */
+  @media (max-width: 768px) {
+    .card-project {
+      flex: 0 0 calc(33.33% - 16px); /* Asegura 3 tarjetas por línea */
+    }
+  }
+  
+  /* Opcional: Puedes cambiar a dos tarjetas por fila en pantallas medianas */
+  @media (max-width: 480px) {
+    .card-project {
+      flex: 0 0 calc(50% - 16px); /* Cambia a 2 tarjetas por fila si lo deseas */
+    }
+  }
+  
+      
 

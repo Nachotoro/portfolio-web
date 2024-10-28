@@ -1,17 +1,38 @@
 const projectsData = [
     {
-      img: "src/assets/img/cordillera.gif",
-      title: "Reciclapp",
-      service: "UX/UI",
-      description: "Este proyecto fue muy genial y aprendí mucho de él. Fue una muy buena experiencia trabajar con mis compañeros.",
+      img: "src/assets/img/encodelyt.png",
+      title: "Encodelyt",
+      service: "Web UX/UI",
+      description: "Technology and digital solutions consultant.",
     },
     {
-      img: "src/assets/img/cordillera.gif",
-      title: "OceanApp",
-      service: "Web Development",
-      description: "Un proyecto innovador para concientizar sobre la contaminación marina.",
+      img: "src/assets/img/Alicia.png",
+      title: "Alicia",
+      service: "Web UX/UI",
+      description: "In-store promoter robot that boosts sales using Artificial Intelligence and IoT",
     },
-    // Puedes agregar más proyectos aquí
+    {
+        img: "src/assets/img/escalada.png",
+        title: "Guía de Escalada",
+        service: "Mobile UX/UI",
+        description: "Sports application for climbing",
+      },    {
+        img: "src/assets/img/aquanet.png",
+        title: "Aquanet",
+        service: "Web Development",
+        description: "Social network that helps communities connect on water use",
+      },    {
+        img: "src/assets/img/reciclapp.png",
+        title: "Reciclapp",
+        service: "Mobile UX/UI",
+        description: "App that connects anyone who wants to recycle with recyclers who remove material.",
+      },
+      {
+        img: "src/assets/img/module.jpg",
+        title: "Work module",
+        service: "Industrial design",
+        description: "Allows increased concentration in shared environments for remote workers",
+      },
   ];
 
   export default projectsData;
