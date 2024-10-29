@@ -2,7 +2,7 @@
 function Gif() {
     return (
       <div id='home' className="gif">
-        <img src="src\assets\img\gif-encodelyt.gif" alt="" />
+        <img src="public\assets\img\gif-encodelyt.gif" alt="" />
         <div className="overlay-text">
             <h2>Hi, this is</h2>
             <br/>

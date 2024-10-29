@@ -1,25 +1,25 @@
 @font-face {
   font-family: 'Neue-regrade';
-  src: url('src/assets/fonts/Neue Regrade Light.otf') format('truetype');
+  src: url('public/assets/fonts/Neue Regrade Light.otf') format('truetype');
   font-style: Light;
 }
 
 @font-face {
   font-family: 'Neue-regrade';
-  src: url('src/assets/fonts/Neue Regrade Regular.otf') format('truetype');
+  src: url('public/assets/fonts/Neue Regrade Regular.otf') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Neue-regrade';
-  src: url('src/assets/fonts/Neue Regrade Bold.otf') format('truetype');
+  src: url('public/assets/fonts/Neue Regrade Bold.otf') format('truetype');
   font-style: bold;
 
 }
 
 @font-face {
   font-family: 'Nothing You Could Do';
-  src: url(src\assets\fonts\NothingYouCouldDo-Regular.ttf);
+  src: url(public\assets\fonts\NothingYouCouldDo-Regular.ttf);
 }
 
 :root {
