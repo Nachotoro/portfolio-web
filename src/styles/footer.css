@@ -1,6 +1,24 @@
 footer {
+    display: flex;
     height: 200px;
-    background-color: #2F2F2F;
+    background-color: #E5FD7D;
     margin: 0;
-    padding: 20px;
+    padding-left: 35%;
+    padding-right: 5%;
+    padding-top: 8px;
+    justify-content: center;
+    gap: 10%;
+    color: #141414;
+    border-top: 1px solid #141414;
+}
+
+footer a{
+    color: #141414;
+}
+
+footer ul {
+    text-decoration: none;
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
 }

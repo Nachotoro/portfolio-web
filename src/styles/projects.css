@@ -19,6 +19,7 @@
 .projects {
     padding-left: 8%;
     padding-right: 8%;
+    padding-bottom: 8%;
     background-color: #fff;
     display: flex; /* Usar flexbox para el diseño */
     flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias líneas */

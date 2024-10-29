@@ -53,7 +53,7 @@ function Webdeveloper() {
           <img src='src/assets/icons/mail.svg' alt="mail-icon" />
           <div className="email-container" onClick={handleCopy}>
             <h3>ignacio.thoro@gmail.com</h3>
-            {copied && <span className="tooltip">¡Correo copiado!</span>}
+            {copied && <span className="tooltip">Mail copied</span>}
           </div>
           <img src='src/assets/icons/content_copy.svg' alt="content-copy-icon" />
         </div>

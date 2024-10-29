@@ -20,7 +20,12 @@ header ul{
     gap: 28px;
 }
 
-header li:hover{
+header a{
+color: #141414;
+text-decoration: none;
+}
+
+header a:hover{
     text-decoration-line: underline;
     cursor: pointer;
 }

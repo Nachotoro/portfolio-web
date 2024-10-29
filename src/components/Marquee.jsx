@@ -3,7 +3,7 @@ import '../styles/Marquee.css';
 
 const Marquee = ({ items, speed = 10 }) => {
   return (
-    <div className="marquee-container">
+    <div id='about-me' className="marquee-container">
       <div 
         className="marquee-content"
         style={{ animationDuration: `${speed}s` }}

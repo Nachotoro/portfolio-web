@@ -2,9 +2,9 @@ function Navbar() {
     return(
         <header className="navbar">
             <ul>
-                <li>Home</li>
-                <li>About me</li>
-                <li>Projects</li>
+                <a href='#home'>Home</a>
+                <a href='#about-me'>About me</a>
+                <a href='#projects'>Projects</a>
             </ul>
 
 

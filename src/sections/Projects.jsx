@@ -6,7 +6,7 @@ import projectsData from "../data/projectsData";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id='projects' className="projects">
       {projectsData.map((project, index) => (
         <CardProject
           key={index}
