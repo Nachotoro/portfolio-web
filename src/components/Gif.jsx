@@ -10,7 +10,7 @@ function Gif() {
             <br/>
             <h2>portfolio</h2>
         </div>
-        <button href='#projects' className="projects-button">View Projects</button>
+        <a href='#projects' className="projects-button">View Projects</a>
     </div>
     );
   }

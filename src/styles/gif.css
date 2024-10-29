@@ -40,7 +40,7 @@
     z-index: -1; /* Envía el fondo detrás del texto */
 }
 .projects-button {
-    height: 60px;
+    text-decoration: none;
     position: absolute; /* Permite posicionar el botón sin afectar la rotación del texto */
     top: calc(68% + 40px); /* Ajusta según el tamaño del texto y espacio necesario */
     left: 50%; /* Centra horizontalmente */
