@@ -52,6 +52,11 @@
   
   /* Opcional: Puedes cambiar a dos tarjetas por fila en pantallas medianas */
   @media (max-width: 480px) {
+
+    .projects{
+      flex-direction: column;
+    }
+
     .card-project {
       flex: 0 0 calc(50% - 16px); /* Cambia a 2 tarjetas por fila si lo deseas */
     }

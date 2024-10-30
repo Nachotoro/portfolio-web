@@ -1,13 +1,43 @@
-.about-me{
-    background-color: rgb(255, 255, 255);
+.about-me {
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 20px; /* Espaciado interno para que el contenido no toque los bordes */
+    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en múltiples filas */
 }
 
-.card{
+/* Estilo general de las tarjetas */
+.card {
     font-family: 'Neue-regrade';
-    
-    color: black;
-    width: 397px;
-    padding: 8px;
+    color: #2F2F2F;
+    width: 100%; /* Ancho completo del contenedor por defecto */
+    max-width: 397px; /* Limita el ancho máximo en pantallas grandes */
+    padding: 16px;
+    border: 1px solid #2F2F2F;
+    box-shadow: 2px 6px 1px 0px rgba(20,20,20,0.9);
+    border-radius: 8px; /* Bordes redondeados */
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Espacio entre los elementos internos */
 }
+
+/* Estilo responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .about-me {
+        padding: 10px; /* Menos padding en pantallas más pequeñas */
+    }
+
+    .card {
+        width: 90%; /* La tarjeta ocupa el 90% del ancho disponible */
+        padding: 20px; /* Más espacio interno para legibilidad */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 80%; /* Ocupa todo el ancho disponible en móviles */
+        padding: 16px; /* Ajuste ligero en el padding */
+    }
+}
+

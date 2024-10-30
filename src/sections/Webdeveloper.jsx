@@ -18,27 +18,29 @@ function Webdeveloper() {
 
   return (
     <div className="webdeveloper">
-      <div className='margin-left'></div>
-      <div className='line'></div>
-      <div className='symbols'>
-        <img src='/assets/icons/OBJECTS.svg' alt="icon-objects" />
-        <div className='line-horizontal'></div>
-        <img src='/assets/icons/inter.svg' alt="icon-inter" />
-        <div className='line-horizontal'></div>
-        <img src='/assets/icons/x-lines.svg' alt="icon-x-lines" />
-      </div>
-      <div className='line'></div>
-      <div className='ux-ui'>
-        <div className='text-container'>
-          <img src='/assets/icons/croces.svg' alt="icon-croces" />
-          <h2>UX/UI Designer & Web developer</h2>
+      <div className='webdeveloper-media'>
+        <div className='margin-left'></div>
+        <div className='line'></div>
+        <div className='symbols'>
+          <img src='/assets/icons/OBJECTS.svg' alt="icon-objects" />
+          <div className='line-horizontal'></div>
+          <img src='/assets/icons/inter.svg' alt="icon-inter" />
+          <div className='line-horizontal'></div>
+          <img src='/assets/icons/x-lines.svg' alt="icon-x-lines" />
         </div>
-        <div className='text-container'>
-          <img src='/assets/icons/croces.svg' alt="icon-croces" />
-          <h3>Based in Santiago, Chile</h3>
+        <div className='line'></div>
+        <div className='ux-ui'>
+          <div className='text-container'>
+            <img src='/assets/icons/croces.svg' alt="icon-croces" />
+            <h2>UX/UI Designer & Web developer<br></br></h2>
+          </div>
+          <div className='text-container'>
+            <img src='/assets/icons/croces.svg' alt="icon-croces" />
+            <h3>Based in Santiago, Chile</h3>
+          </div>
         </div>
-      </div>
-      <div className='line'></div>
+        </div>
+      
       <div className='contact'>
         <div className='title-contact'>
           <img src='/assets/icons/hand-icon.svg' alt="hand-icon" />

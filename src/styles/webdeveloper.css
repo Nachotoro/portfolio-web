@@ -1,28 +1,33 @@
+/* Estilos generales */
 .webdeveloper {
     height: 200px;
     background-color: #DED7FD;
     display: flex;
     justify-content: space-between;
-    align-items: stretch; /* Asegura que todos los hijos tengan el mismo alto */
-    box-shadow: 0px -8px 12px -8px rgba(20,20,20,1);
+    align-items: stretch;
+    box-shadow: 0px -8px 12px -8px rgba(20, 20, 20, 1);
+}
+
+.webdeveloper-media {
+    display: flex;
 }
 
 .margin-left {
     width: 122px;
     background-color: #DED7FD;
-    flex-shrink: 0; /* Evita que el margen izquierdo cambie de tamaño */
+    flex-shrink: 0; /* Evita que cambie de tamaño */
 }
 
 .line {
-    height: 100%; /* Asegura que ocupe todo el alto del contenedor */
+    height: 100%;
     width: 1px;
     background-color: #2F2F2F;
 }
 
 .symbols {
     width: 76px;
-    background-color: #DED7FD; /* Añadido para que se note */
-    flex-shrink: 0; /* Evita que se reduzca */
+    background-color: #DED7FD;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -30,72 +35,73 @@
 }
 
 .ux-ui {
+    flex: 1; /* Ocupa todo el espacio disponible */
     display: flex;
     flex-direction: column;
-    flex: 1; /* Ocupa todo el espacio disponible */
-    color: #2F2F2F;
-    background-color: #DED7FD;
     justify-content: center;
     align-items: flex-start;
+    color: #2F2F2F;
+    background-color: #DED7FD;
 }
-.text-container{
-    
-    gap: 12px;
-    margin-left: 12%;
+
+.text-container {
     display: flex;
     align-items: center;
+    gap: 12px;
+    width: max-content;
+    margin-left: 12%;
 }
 
 .text-container h2 {
-    font-size: clamp(16px, 5vw, 28px); /* Se ajusta sin necesidad de media queries */
-    text-align: center;
+    font-size: clamp(16px, 5vw, 28px); /* Adaptable a diferentes pantallas */
+    text-align: left;
 }
 
 .contact {
+    flex: 0.6;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2px;
-    flex: 0.6;
+    border-left: 1px solid #2F2F2F;
     background-color: #E5FD7D;
     color: #2F2F2F;
 }
 
 .contact:hover {
     background-color: #CDE952;
-
 }
 
-.title-contact{
-    gap: 8px;
-    font-style: bold;
+.title-contact {
     display: flex;
+    gap: 8px;
+    font-weight: bold;
 }
 
-.icons-contact{
+.icons-contact {
     display: flex;
     gap: 20px;
 }
 
-.icons-contact img{
+.icons-contact img {
     height: 32px;
     width: 32px;
     padding: 8px;
     background-color: #ffffff;
     border-radius: 8px;
     border: 1px solid #2F2F2F;
-    box-shadow: 2px 6px 1px 0px rgba(20,20,20,0.9)
+    box-shadow: 2px 6px 1px 0px rgba(20, 20, 20, 0.9);
 }
 
-.icons-contact img:hover{
-    box-shadow: 2px 6px 4px 0px rgba(20,20,20,0.9)
+.icons-contact img:hover {
+    box-shadow: 2px 6px 4px 0px rgba(20, 20, 20, 0.9);
 }
 
 .email-container {
     position: relative;
     display: inline-block;
-  }
+}
 
 .tooltip {
     display: flex;
@@ -112,28 +118,81 @@
     opacity: 0.9;
     animation: fadeIn 0.3s forwards;
     z-index: 1;
-  }
-  
-  @keyframes fadeIn {
+}
+
+@keyframes fadeIn {
     from {
-      opacity: 0;
+        opacity: 0;
     }
     to {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
+}
 
-.mail-contact{
+.mail-contact {
     display: flex;
     gap: 8px;
 }
+
 .mail-contact:hover {
-    text-decoration-line: underline;
+    text-decoration: underline;
     cursor: pointer;
 }
+
 .line-horizontal {
-    width: 100%; /* Toma todo el ancho del contenedor */
+    width: 100%;
     height: 1px;
-    background-color: black; /* Asegúrate de darle un color para que sea visible */
+    background-color: black;
 }
+
+/* Media queries para pantallas móviles */
+@media (max-width: 768px) {
+    .webdeveloper {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        border-top: 1px solid #2F2F2F;
+    }
+
+    .contact {
+        height: auto;
+        border-top: 1px solid #2F2F2F;
+        border-bottom: 1px solid #2F2F2F;
+    }
+
+    .text-container {
+        margin-left: 8px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .symbols {
+        flex-direction: column;
+        justify-content: space-around;
+        border-right: 1px solid #2F2F2F;
+        border-left: 1px solid #2F2F2F;
+    }
+    .symbols img{
+        width: 32px;
+        height: 32px;
+    }
+    .icons-contact {
+        gap: 12px; /* Reduce el espacio entre íconos */
+    }
+}
+
+@media (max-width: 480px) {
+    .webdeveloper {
+        z-index: 1; /* Asegura que el contenido sea visible */
+    }
+    .margin-left{
+        width: 0px;
+    }
+
+    .icons-contact img {
+        height: 28px;
+        width: 28px;
+        padding: 6px;
+    }
+}
+

@@ -3,22 +3,49 @@ footer {
     height: 200px;
     background-color: #E5FD7D;
     margin: 0;
-    padding-left: 35%;
-    padding-right: 5%;
-    padding-top: 8px;
-    justify-content: center;
-    gap: 10%;
+    padding: 8px 8%; /* Ajuste proporcional de padding */
+    justify-content: space-evenly; /* Distribuye los elementos equitativamente */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 20px; /* Espacio entre los elementos */
     color: #141414;
     border-top: 1px solid #141414;
 }
 
-footer a{
+/* Estilo para los enlaces del footer */
+footer a {
     color: #141414;
+    text-decoration: none;
 }
 
+/* Estilo para las listas dentro del footer */
 footer ul {
-    text-decoration: none;
-    font-family: roboto;
+    list-style: none; /* Elimina los puntos de las listas */
+    font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    align-items:flex-start; /* Centra los elementos en columnas */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo Responsive para Pantallas Pequeñas */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column; /* Cambia a disposición en columna */
+        height: auto; /* Elimina altura fija */
+        padding: 20px 5%; /* Padding más cómodo para dispositivos móviles */
+        gap: 20px; /* Más espacio entre los bloques en pantallas pequeñas */
+    }
+}
+
+/* Ajuste adicional para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    footer {
+        padding: 16px; /* Padding más pequeño para móviles */
+        text-align: center; /* Centra el contenido para mejor legibilidad */
+    }
+
+    footer ul {
+        align-items: center; /* Asegura que las listas estén centradas */
+    }
 }
